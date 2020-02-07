@@ -59,7 +59,7 @@ class MoviesController < ApplicationController
 
      def allRatings  
         hash = {}
-        @alRatings.each { |val| hash[val] = '1' }
+        @allRatings.each { |val| hash[val] = '1' }
         hash
      end
 end
